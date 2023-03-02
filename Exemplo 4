@@ -1,0 +1,8 @@
+#Crie um programa que receba dois números inteiros, faça a multiplicação entre eles 
+#e mostre o seu resultado em tela. Ex:(‘O resultado da multiplicação de 2 e 5 é igual a 10’)
+
+n1=int (input("Digite um número: "))
+n2=int (input("Digite um segundo número: "))
+mul = n1 * n2
+
+print("A multiplicação de {0} por {1} é igual a  {2}" .format(n1,n2,mul))
