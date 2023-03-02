@@ -1,0 +1,11 @@
+#Crie um programa que receba um numero inteiro qualquer e traga em tela a sua tabuada de multiplicação.
+
+num = int (input ("Digite um número:"))
+aux = 0 
+
+print("A tabuada de {} é" .format(num))
+print("-" *15)
+
+while (aux<=10):
+    print('{} X {} =  {}' .format(num, aux, (aux*num)))
+    aux = aux + 1
