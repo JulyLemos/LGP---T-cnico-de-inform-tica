@@ -1,0 +1,10 @@
+#Crie um programa que receba o nome de um aluno e a nota de duas provas. Traga em tela o nome do aluno e o resultado do
+#calculo da média de suas duas provas. Ex (‘A media das duas provas do aluno João, é respectivamente 20’)
+
+nome = input("Digite seu nome: ")
+n1 = int (input("Digite a nota da primeira prova: "))
+n2 = int (input("Digite a nota da segunda prova: "))
+
+med = (n1 + n2)/2
+
+print ("A média das duas provas de {} é de {}" .format(nome, med))
