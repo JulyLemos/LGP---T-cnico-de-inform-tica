@@ -1,0 +1,7 @@
+#Crie um algoritmo que receba o nome de um produto, seu preço unitário e ao final imprima na tela o nome do produto com um desconto de 10%.
+
+nome = input("Digite o nome do produto: ")
+prc = float (input ("Digite o preço do produto:"))
+desc = prc*0.9
+
+print("O nome do produto é {}, sendo seu preço unitário R$ {}. Com um desconto de 10% seu valor atual é de R$ {}" .format(nome,prc,desc))
