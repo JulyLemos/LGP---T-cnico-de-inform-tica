@@ -1,0 +1,9 @@
+#Crie um algoritmo que converta um número em dólar para o seu valor em real. Ao final imprima na tela 
+# o seu valor em dólar e o seu valor em real. Para tal você deve receber a cotação do dólar em reais.
+
+dol = float (input("Digite o valor em dólar a ser convertido: "))
+real = float (input("Digite a cotação do real: "))
+
+conv = dol * real
+
+print("O valor em dólar convertido foi de {}, o seu valor em reais é de R${}" .format(dol, conv))
