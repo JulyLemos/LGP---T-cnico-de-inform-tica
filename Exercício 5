@@ -1,0 +1,9 @@
+#Crie um algoritmo que receba três números e ao final imprima na tela, a soma dos três números e a média dos três números.
+
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
+s = n1+n2+n3
+med = (n1+n2+n3)/3
+
+print("A soma dos três valores é de {} e a média delas é de {}" .format(s,med))
