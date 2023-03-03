@@ -1,6 +1,0 @@
-#Crie um algoritmo que receba um número inteiro e ao final imprima na tela o valor desse número ao quadrado.
-
-num = int (input ("Digite o número: "))
-quad = num**2 
-
-print("O quadrado do número {} é de {}" .format(num,quad))
